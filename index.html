@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="js/jquery-3.1.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>What are your favorite things?</h1>
+      <p></p>
+      <form>
+        <div id="nameBox" class="form-group">
+          <label for="nameInput">First, what's your name?</label>
+          <input id="nameInput" class="form-control" type="text" aria-describedby="nameHelp">
+          <span id="nameHelp" calls="help-block">You have a name, don't you?</span>
+        </div>
+        <div id="animalBox" class="form-group">
+          <label for="animalInput">What is your favorite animal?</label>
+          <input id="animalInput" class="form-control" type="text">
+        </div>
+        <div id="foodBox" class="form-group">
+          <label for="foodInput">What is your favorite food?</label>
+          <input id="foodInput" class="form-control" type="text">
+        </div>
+        <div id="clothingBox" class="form-group">
+          <label for="clothingInput">What is your favorite clothing item?</label>
+          <input id="clothingInput" class="form-control" type="text">
+        </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <ul id="printOut">
+      </ul>
+    </div>
+  </body>
+</html>
